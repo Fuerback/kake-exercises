@@ -1,0 +1,17 @@
+{
+  "bakeryName": "Kake",
+  "characteristics": [
+    {
+      "name": "Flavor",
+      "values": ["Chocolate", "Vanilla", "Strawberry", "Lemon"]
+    },
+    {
+      "name": "Size",
+      "values": ["Small", "Medium", "Large", "Extra Large"]
+    },
+    {
+      "name": "Frosting",
+      "values": ["Buttercream", "Fondant", "Whipped Cream", "No Frosting"]
+    }
+  ]
+}
