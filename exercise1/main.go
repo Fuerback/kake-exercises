@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	data := [][]int{
 		{1, 2, 3},
@@ -8,7 +10,7 @@ func main() {
 		{7, 8, 9},
 	}
 
-	sumColValues(data)
+	fmt.Println(sumColValues(data))
 }
 
 func sumColValues(data [][]int) []int {
