@@ -15,7 +15,6 @@ md := NewMapDetailImpl([][]int{
 	{1, 2, 3},
 	{4, 5, 4},
 	{1, 1, 1},
-	{7, 8, 9},
 })
 fmt.Println(md.getMaxColumnSize())
 fmt.Println(md.isSquare())

@@ -13,8 +13,8 @@ func TestMapDetail(t *testing.T) {
 		expectedIsSquare      bool
 	}{
 		"case 1": {
-			matrix:                [][]int{{1, 2, 3}, {4, 5, 4}, {1, 1, 1}, {7, 8, 9}},
-			expectedMaxColumnSize: 3,
+			matrix:                [][]int{{1, 2, 3, 4}, {4, 5, 4, 5}, {1, 1, 1, 1}, {7, 8, 9, 10}},
+			expectedMaxColumnSize: 4,
 			expectedIsSquare:      true,
 		},
 		"case 2": {
